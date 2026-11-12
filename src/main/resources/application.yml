@@ -1,0 +1,9 @@
+acme:
+  security:
+    signing-secret: demo-shared-secret
+    fraud-threshold: 5000
+
+management:
+  endpoint:
+    health:
+      show-details: always
